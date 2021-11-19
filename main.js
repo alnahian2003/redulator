@@ -18,7 +18,7 @@ function calculate() {
         timeContainer.innerHTML =
           "< <span class = 'colored-cap'>" + time + "</span> Minute to Read";
       } else {
-        timeContainer.innerHTML = time + " Minutes to Read";
+        timeContainer.innerHTML = "<span class = 'colored-cap'>" + time + "</span> Minutes to Read";
       }
     }
 
